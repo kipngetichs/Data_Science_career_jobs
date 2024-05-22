@@ -93,5 +93,15 @@ Some of the data visuals that may be appropriate in answering our questions incl
 5. Column Bar Chats
 
 ![Home Page_1716379105226696](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/94e11a2c-1af0-46d7-97c6-91af5e69fb6f)
+![Summary_1716379106121111](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/6816ae54-6b92-44ec-99ef-8220565bc426)
+# Tools
+| Tool | Purpose |        
+|------------|------------|
+| Excel | Exploring the data | 
+| SQL Server  | Cleaning, testing, and analyzing the data    | 
+| Power BI  | Visualizing the data via interactive dashboards  | 
+| GitHub  | 	Hosting the project documentation and version control  | 
+| Mokkup AI   | 	Designing the wireframe/mockup of the dashboard  | 
+
   
 
