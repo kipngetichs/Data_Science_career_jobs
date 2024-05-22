@@ -91,5 +91,7 @@ Some of the data visuals that may be appropriate in answering our questions incl
 3. Map
 4. Donat Chat
 5. Column Bar Chats
+
+![Home Page_1716379105226696](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/94e11a2c-1af0-46d7-97c6-91af5e69fb6f)
   
 
