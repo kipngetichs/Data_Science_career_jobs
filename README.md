@@ -65,5 +65,31 @@ Data needed is Glassdoor_Salary_Cleaned_Version that includes their:
 - Company Text
  - Job State
  - The data is sourced from Kaggle (an Excel extract),https://www.kaggle.com/datasets/nadzmiagthomas/australia-data-science-jobs
- 
+ # Stages
+  - Design
+ - Developement
+- Testing
+- Analysis
+# Design
+# Dashboard Components Requirement
+The following are  questions that the dashboard will answer.
+- Top 10 Sectors with highest salaries
+- Top 5 job titles with highest salaries
+- Bottom 5 job titles with lowest salaries
+- Average salaries in diffirent locations and job states
+- Top 5 rated industries
+- Top 10 Companies with highest salaries
+- Grid showing all the contents i.e total job titles,companies etc
+
+
+
+For now, these are some of the questions we need to answer, this may change as we progress down our analysis
+# Dashboard Mockup
+Some of the data visuals that may be appropriate in answering our questions include:
+1. Table
+2. Horizontal bar chats
+3. Map
+4. Donat Chat
+5. Column Bar Chats
+  
 
