@@ -140,7 +140,7 @@ Below is a table outlining the constraints on our cleaned dataset:
 | Property| Description |        
 |------------|------------|
 | Number of Rows| 731 | 
-| Number of Columns  |19    | 
+| Number of Columns  |20    | 
 
 And here is a tabular representation of the expected schema for the clean data:
 | Column Name| Data Type|   Nullable     |
@@ -165,13 +165,20 @@ And here is a tabular representation of the expected schema for the clean data:
 |excel|BINARY|NO
 
 # Transform the data
+SQL QUERY
+
+
 ![Transform img sql](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/11349aa7-2ae2-43c7-a16e-6d0a6d7179f9)
 
 # Create the SQL view
+ SQL QUERY
+
+
 ![SQL VIEW](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/f02a605e-51f5-4883-bcfa-f990d5a22404)
 # Testing
 Here are the data quality tests conducted:
 # Row count check
+ SQL QUERY
 
 
 
