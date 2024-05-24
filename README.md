@@ -276,5 +276,7 @@ Results
 
 -This is the look of dashboard.
 
+![Dashboard home page img](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/66c8748c-0b1a-421a-84b5-64963736d03b)
+
 
 
