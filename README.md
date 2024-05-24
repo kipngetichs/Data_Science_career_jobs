@@ -188,16 +188,36 @@ FROM DATA_SCIENCE_CAREER_JOBS
  
  
  ![ROW QUALITY CHECK](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/617f7218-0043-422f-9186-3742f3fec27d)
-# Row count check
+# Column quality check
   SQL QUERY
 
+
+
+SELECT COUNT(*)AS COLUMN_COUNT_CHECK
+
+FROM INFORMATION_SCHEMA.COLUMNS
+
+WHERE TABLE_NAME='DATA_SCIENCE_CAREER_JOBS'
 
 
 
 ![COLUMN QUALITY CHECK](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/981312c9-6926-47f3-9f6d-35a25e1fc968)
 
   
+# Data type check
 
+SQL query
+
+
+
+SELECT COLUMN_NAME,DATA_TYPE
+
+FROM INFORMATION_SCHEMA.COLUMNS
+
+WHERE TABLE_NAME='DATA_SCIENCE_CAREER_JOBS'
+
+
+Output
 
 
 
