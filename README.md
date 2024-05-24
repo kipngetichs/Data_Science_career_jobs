@@ -235,4 +235,33 @@ WHERE    Job_Title IS NULL
 GROUP BY   Job_Title
 
 
+Output
+
+![Null count chech](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/656c6eab-bee5-429c-8344-fe5cf9a15df7)
+
+
+
+
+- The rest of the columns had no null vales i had cross check all
+
+# Column Salaries Where there is 0 salary value.
+
+
+SQL query
+
+
+
+ 
+SELECT avg_salary,COUNT(*)Zero_Value
+
+FROM DATA_SCIENCE_CAREER_JOBS
+
+WHERE    avg_salary =0
+
+GROUP BY   avg_salary
+
+
+Output
+
+
 
