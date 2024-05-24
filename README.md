@@ -219,6 +219,20 @@ WHERE TABLE_NAME='DATA_SCIENCE_CAREER_JOBS'
 
 Output
 
+![DATA TYPE QUALITY CHECK IMG](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/b5e2fe5d-6834-4514-b2ad-5e084a0f15de)
+
+# Null count check
+
+SQL query
+
+
+SELECT Job_Title,COUNT(*)Null_Count
+
+FROM DATA_SCIENCE_CAREER_JOBS
+
+WHERE    Job_Title IS NULL
+
+GROUP BY   Job_Title
 
 
 
