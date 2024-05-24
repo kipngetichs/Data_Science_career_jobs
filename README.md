@@ -102,6 +102,64 @@ Some of the data visuals that may be appropriate in answering our questions incl
 | Power BI  | Visualizing the data via interactive dashboards  | 
 | GitHub  | 	Hosting the project documentation and version control  | 
 | Mokkup AI   | 	Designing the wireframe/mockup of the dashboard  | 
+# Development
 
+# Pseudocode
+  - The general approach in creating this solution from start to finish was:
+ 1. Get the data
+ 2. Explore the data in Excel
+ 3. Load the data into SQL Server
+ 4. Clean the data with SQL
+ 5. Test the data with SQL
+ 6. Visualize the data in Power BI
+ 7. Generate the findings based on the insights
+ 8. Write the documentation + commentary
+ 9. Publish the data to GitHub Pages
+# Data exploration notes
+- The Following was my initial observation that caught my Attention:
+
+
+  1. Salary Analysis: The columns related to salary (min_salary, max_salary, avg_salary) provide a comprehensive view of compensation. The data can be explored to identify trends in salary by job title, location, industry,sectors,type of ownership,companies and company size.
+  2. Company Attributes: Information about the company (size,  type_of_ownership, industry, sector, ) allows for a detailed analysis of how company characteristics correlate with job offerings and salaries.
+  3. Geographic Distribution: Location and job_state provide the basis for geographic analysis, helping to understand where jobs are concentrated and how location impacts salary and job availability.
+  4. Reputation : Rating column can be used to evaluate company reputation and  positioning we can be able to see characterictisc of different (sectors,companies,type of ownerships and industries)
+  5. Skill Demand: Columns like python_yn, R_yn, spark, aws, and excel offer insights into the technical skills demanded by employers. This can be analyzed to identify the most sought-after skills in the job market.
+  # Data cleaning
+ - Expectations to the data.
+ 
+  The aim is to refine our dataset to ensure it is structured and ready for analysis.
   
+  The cleaned data should meet the following criteria and constraints:
+  - Only relevant columns should be retained.
+  - All data types should be appropriate for the contents of each column.
+  - No column should contain null values, indicating complete data for all records.
+  - Columns like(min_salary,max_salary,avg_salary)should not contain 0 values for it will not make any sense at all.
 
+Below is a table outlining the constraints on our cleaned dataset:
+
+| Property| Description |        
+|------------|------------|
+| Number of Rows| 731 | 
+| Number of Columns  |19    | 
+
+And here is a tabular representation of the expected schema for the clean data:
+| Column Name| Data Type|   Nullable     |
+|------------|------------|--------|
+| Job_Title| VARCHAR|     NO  |
+|Rating|FLOAT|NO     
+|Company_Name| VARCHAR|NO
+|Location|VARCHAR|NO
+|Headquarters|VARCHAR|NO
+|Size|VARCHAR|NO
+|Type_of_ownership|VARCHAR|NO
+|Industry|VARCHAR|NO    
+|min_salary|INTEGER|NO    
+|max_salary| INTEGER|NO 
+|avg_salary|FLOAT|NO
+|company_txt|VARCHAR|NO
+|job_state|VARCHAR|NO
+|python_yn|BINARY|NO
+|R_yn|BINARY|NO
+|spark|BINARY|NO
+|aws|BINARY|NO
+|excel|BINARY|NO
