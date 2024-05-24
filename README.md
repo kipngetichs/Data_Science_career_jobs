@@ -192,6 +192,10 @@ FROM DATA_SCIENCE_CAREER_JOBS
   SQL QUERY
 
 
+
+
+![COLUMN QUALITY CHECK](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/981312c9-6926-47f3-9f6d-35a25e1fc968)
+
   
 
 
