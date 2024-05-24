@@ -278,5 +278,49 @@ Results
 
 ![Dashboard home page img](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/66c8748c-0b1a-421a-84b5-64963736d03b)
 
+![overview dashboard img](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/36ba50b4-1911-4efe-8d9f-ade63023f22a)
 
+# DAX Measures
+# 1. Maximum Salary(K)
+Maximun Salary(K) = 
 
+var maximun=MAX(Data_Science_Jobss[Maximum_Salary])
+
+RETURN maximun
+# 2. Minimum Salary(K)
+Minimun Salary(K) = 
+
+var minimun=Min(Data_Science_Jobss[Minimum_Salary])
+
+RETURN minimun
+# 3. Average Salary(K)
+Average Salary(K) = 
+
+var averagesalary=AVERAGE(Data_Science_Jobss[Average_Salary])
+
+RETURN averagesalary
+
+# Analysis
+
+# Findings
+
+For this analysis,the following are what we need to find out
+1. Top 10 sectors with highest salaries distributions
+2. Top 5 job titles with highest salary contributions
+3. Bottom  5 job titles with lowest  salary contributions
+4. Top 5 rated industries
+5. Top 10 companies with highest salary contributions
+6. Ownerships that are best for  working in
+# 1. Top 10 Sectors to work in are the following:
+|Rank|Sector|Maximum Salary(K)
+|---------|--------|---------|
+|1|Insurance|$306
+|2|Information Technology|$289
+|3|Business Services| $275
+|4|Health Care| $272
+|5|Boitech & Pharmaceuticals|$231
+|6|Finance|$228
+|7|Aerospace & Defence|$211
+|8|Education|$208
+|9|Retail|$201
+|10|Media|$190
