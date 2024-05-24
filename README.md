@@ -181,6 +181,20 @@ Here are the data quality tests conducted:
  SQL QUERY
 
 
+SELECT *COUNT* (*)AS NUMBER_OF_ROWS
+
+
+FROM DATA_SCIENCE_CAREER_JOBS
+ 
+ 
+ ![ROW QUALITY CHECK](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/617f7218-0043-422f-9186-3742f3fec27d)
+# Row count check
+  SQL QUERY
+
+
+  
+
+
 
 
 
