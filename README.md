@@ -264,4 +264,17 @@ GROUP BY   avg_salary
 Output
 
 
+![Zero value](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/24571d84-9493-477e-b8c7-cc83ecb83519)
+
+
+
+- The other min and max salary column didn't have any zero value.
+# Visualization
+
+
+Results
+
+-This is the look of dashboard.
+
+
 
