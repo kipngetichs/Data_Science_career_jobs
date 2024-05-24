@@ -163,3 +163,10 @@ And here is a tabular representation of the expected schema for the clean data:
 |spark|BINARY|NO
 |aws|BINARY|NO
 |excel|BINARY|NO
+
+# Transform the data
+![Transform img sql](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/11349aa7-2ae2-43c7-a16e-6d0a6d7179f9)
+
+# Create the SQL view
+
+
