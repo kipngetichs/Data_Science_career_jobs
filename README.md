@@ -579,6 +579,62 @@ order by Maximum_Salary desc
 
 OUTPUT
 
+![companies with best salaries and ratings img](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/362224f9-37e3-43d8-a5ab-c41fb295bc00)
+
+# Top Type Of Ownership With Best Salaries And Rating
+Calculation Breakdowm
+
+Best Ownership=Salary Expectations And Average Rating
+
+1. Company - Private
+   - Maximum Salary(K)=$306
+   - Minimum Salary(K)=$15
+   - Average Salary(K)=$100.84
+   - Average Rating=3.75
+2. Subsidiary or Business Segment
+   - Maximum Salary(K)=$289
+   - Minimum Salary(K)=$27
+   - Average Salary(K)=$110.57
+   - Average Rating=3.64
+3. Company - Public
+   - Maximum Salary(K)=$231
+   - Minimum Salary(K)=$10
+   - Average Salary(K)=$110.89
+   - Average Rating=3.67
+ 4. College / University
+    - Maximum Salary(K)=$167
+    - Minimum Salary(K)=$56
+    - Average Salary(K)=$107.62
+    - Average Rating=2.77
+5. Nonprofit Organization
+   - Maximum Salary(K)=$160
+   - Minimum Salary(K)=$17
+   - Average Salary(K)=$67.93
+   - Average Rating=3.66
+# SQL query for this :
+select top 5 Type_Of_Ownership,
+
+round(avg(Rating),2)Average_Rating,
+
+max(Maximum_Salary)Maximum_Salary,
+
+round(avg(Average_Salary),2)Average_Salary,
+
+min(Minimum_Salary)Minimum_Salary
+
+from Data_Science_Jobss
+
+group by Type_Of_Ownership
+
+order by Maximum_Salary desc
+
+
+OUPUT
+
+
+
+
+
 
 
 
