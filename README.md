@@ -631,6 +631,21 @@ order by Maximum_Salary desc
 
 OUPUT
 
+![type of ownerships with best salaries](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/8e05da79-613a-4171-8917-a81aced8db44)
+
+# Discovery
+- What I Have Learned
+
+ - I Discovered That:
+1. Insurance,Information Technology and Business Services are sectors with the best salary distributions.
+2. "Director II, Data Science - GRM Actuarial","Principal Machine Learning Scientist","Senior Data Scientist","Data Science Manager" and "Director II, Data Science - GRS Predictive Analyti" are the best job titles with best salary distributions .
+3. Insurance Carriers,Computer Hardware & Software,Consulting,Health Care Services & Hospitals and Enterprise Software & Network Solutions are the top industries with the best salary distributions and average ratings.
+4. Liberty Mutual Insurance ,Sage Intacct ,Gallup ,Grand Rounds and The Climate Corporation are companies that have the best salaries and average ratings distributions.
+5. Company - Private,Subsidiary or Business Segment,Company - Public,College / University and Nonprofit Organization are form of ownerships that contributes the salary and rating distributions.
+ 
+  
+
+
 
 
 
