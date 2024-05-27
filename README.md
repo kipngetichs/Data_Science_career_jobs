@@ -311,7 +311,7 @@ For this analysis,the following are what we need to find out
 4. Top 5 rated industries
 5. Top 10 companies with highest salary contributions
 6. Ownerships that are best for  working in
-# 1. Top 10 Sectors to work in are the following:
+# 1. Top 10 Sectors with highest salary distributions.
 |Rank|Sector|Maximum Salary(K)
 |---------|--------|---------|
 |1|Insurance|$306
@@ -324,3 +324,90 @@ For this analysis,the following are what we need to find out
 |8|Education|$208
 |9|Retail|$201
 |10|Media|$190
+
+# 2.Top 5 job titles with highest salary contributions
+|Rank|Job Title|Maximum Salary(K)
+|---------|--------|---------|
+|1|Director II, Data Science - GRM Actuarial|$306
+|2|Principal Machine Learning Scientist|$289
+|3|Senior Data Scientist| $275
+|4|Data Science Manager| $272
+|5|Director II, Data Science - GRS Predictive Analyti|$231
+
+# 3.Bottom 5 job titles with lowest salary contributions
+|Rank|Job Title|Maximum Salary(K)
+|---------|--------|---------|
+|1|Senior Operations Data Analyst, Call Center Operat|$10
+|2|Data Scientist|$15
+|3|Medical Technologist / Clinical Laboratory Scienti| $15
+|4|Medical Lab Scientist| $17
+|5|Medical Laboratory Scientist|$18
+
+# 4.Top 5 rated industries
+|Rank|Industry|Average Rating
+|---------|--------|---------|
+|1|Security Services|4.76
+|2|Farm Support Services|4.6
+|3|Architectural & Engineering Services| 4.45
+|4|Metals Brokers| 4.4
+|5|Trucking|4.3
+
+# 5. Top 10 companies with highest salary contributions
+|Rank|Sector|Maximum Salary(K)
+|---------------|-------------------------|---------|
+|1|Liberty Mutual Insurance 3.3|$306
+|2|Sage Intacct 4.7|$289
+|3|Gallup 4.2| $275
+|4|Grand Rounds 4.2| $272
+|5|The Climate Corporation 3.2|$238
+|6|Nektar Therapeutics 3.5|$231
+|7|DTCC 3.3|$228
+|8|Samsung Research America 3.7|$228
+|9|Tapjoy 3.9|$224
+|10|BioMarin Pharmaceutical 3.8|$223
+# Notes
+For this analysis, we'll prioritize analysing with metrics that are important in generating the expected ROI for the project, which are the career job title,sectors,companies,type of ownership wuth the best salaries
+ - Maximum Salary
+ - Minimum Salary
+ - Average Salary
+# Validation
+# Sectors with best salaries
+
+Calculation Breakdown
+
+
+The Best Career Sector=Salary Expectation
+1. Insurance
+ - Maximum Salary(K) = $306
+ - Minimum Salary(K)=$32
+ - Average Salary(K)=$105.94
+2. Information Technology
+  - Maximum Salary(K) =$289
+  - Minimum Salary(K)=$20
+  - Average Salary(K)=$111.94
+3. Business Services
+  - Maximum Salary(K)=$275
+  - Minimum Salary(K)=$15
+  - Average Salary(K)=$97.7
+
+
+   # SQL query for this :
+  
+   
+   select top 3 Sector,
+
+max(Maximum_Salary)Maximum_Salary,
+
+round(avg(Average_Salary),2)Average_Salary,
+
+min(Minimum_Salary)Minimum_Salary
+
+from Data_Science_Jobss
+
+group by Sector
+
+order by Maximum_Salary desc
+
+
+OUTPUT
+
