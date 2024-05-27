@@ -526,7 +526,59 @@ order by Maximum_Salary desc
 
 
 OUTPUT
-   
-   
+
+
+![top industries with highest payments img](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/e2a04a3f-a2a3-4138-a80a-2a95be560a59)
+
+# Top Companies With Best Salaries And Ratings
+Calculation Breakdown
+
+Best Company=Salary Expectation & Average Rating
+
+1. Liberty Mutual Insurance 
+   - Maximum Salary(K)=$306
+   - Minimum Salary(K)=$37
+   - Average Salary(K)=$153.6
+   - Average Rating=3.3
+2. Sage Intacct
+   - Maximum Salary(K)=$289
+   - Minimum Salary(K)=$176
+   - Average Salary(K)=$232.5
+   - Average Rating=4.7
+3. Gallup
+   - Maximum Salary(K)=$275
+   - Minimum Salary(K)=$200
+   - Average Salary(K)=$237.5
+   - Average Rating=4.2
+4. Grand Rounds
+   - Maximum Salary(K)=$272
+   - Minimum Salary(K)=$171
+   - Average Salary(K)=$221.5
+   - Average Rating=4.2
+5. The Climate Corporation
+   - Maximum Salary=$238
+   - Minimum Salary=$150
+   - Average Salary=$194
+   - Average Rating=3.2
+# SQL query for this :
+select top 5 Company_Name,
+
+round(avg(Rating),2)Average_Rating,
+
+max(Maximum_Salary)Maximum_Salary,
+
+round(avg(Average_Salary),2)Average_Salary,
+
+min(Minimum_Salary)Minimum_Salary
+
+from Data_Science_Jobss
+
+group by Company_Name
+
+order by Maximum_Salary desc
+
+OUTPUT
+
+
 
 
