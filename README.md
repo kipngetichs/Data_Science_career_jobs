@@ -371,7 +371,7 @@ For this analysis, we'll prioritize analysing with metrics that are important in
  - Minimum Salary
  - Average Salary
 # Validation
-# Sectors with best salaries
+# Top Sectors with best salaries
 
 Calculation Breakdown
 
@@ -415,7 +415,7 @@ OUTPUT
 
 ![Best Sectors img](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/c0593560-ecd1-43c6-8537-0d65503317a4)
 
-# Job Titles With Best Salaries
+# Top Job Titles With Best Salaries
 Calculation Breakdown
 
 Best career job=Salary Expectation
@@ -445,5 +445,88 @@ Best career job=Salary Expectation
    - Maximum Salary =$239
    - Minimum Salary=$150
    - Average Salary=$194.5
+
+
+# SQL query for this :
+
+
+select top 5 Job_Title,
+
+max(Maximum_Salary)Maximum_Salary,
+
+round(avg(Average_Salary),2)Average_Salary,
+
+min(Minimum_Salary)Minimum_Salary
+
+from Data_Science_Jobss
+
+group by Job_Title
+
+order by Maximum_Salary desc
+
+
+
+
+
+
+
+
+OUTPUT
+
+  ![Job titles with best salaries img](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/c0f889b2-9d94-44da-b80e-647f14fb8fbd)
+
+
+# Top Industries With Best Salaries And Ratings
+Calculation Breakdown
+
+Career Industry=Salary expectation & Rating
+
+1. Insurance Carriers
+   - Maximum Salary(K)=$306
+   - Minimum Salary(K)=$32
+   - Average Salary(K)=$105.63
+   - Average Rating=$3.53
+2. Computer Hardware & Software
+    - Maximum Salary(K)=$289
+    - Minimum Salary(K)=$34
+    - Average Salary(K)=$115.19
+    - Average Rating=4.05
+3. Consulting
+   - Maximum Salary(K)=$275
+   - Minimum Salary(K)=$37
+   - Average Salary(K)=$108.69
+   - Average Rating=4.04
+4. Health Care Services & Hospitals
+   - Maximum Salary(K)=$272
+   - Minimum Salary(K)=$17
+   - Average Salary(K)=$67.62
+   - Average Rating=3.5
+5. Enterprise Software & Network Solutions
+   - Maximum Salary(K)=$238
+   - Minimum Salary(K)=$20
+   - Average Salary(K)=$115.37
+   - Average Rating=3.96
+# SQL query for this :
+
+select top 5 Industry,
+
+round(avg(Rating),2)Average_Rating,
+
+max(Maximum_Salary)Maximum_Salary,
+
+round(avg(Average_Salary),2)Average_Salary,
+
+min(Minimum_Salary)Minimum_Salary
+
+from Data_Science_Jobss
+
+group by Industry
+
+order by Maximum_Salary desc
+
+
+OUTPUT
+   
+   
 
 
