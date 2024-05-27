@@ -411,3 +411,39 @@ order by Maximum_Salary desc
 
 OUTPUT
 
+
+
+![Best Sectors img](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/c0593560-ecd1-43c6-8537-0d65503317a4)
+
+# Job Titles With Best Salaries
+Calculation Breakdown
+
+Best career job=Salary Expectation
+
+
+1. Director II, Data Science - GRM Actuarial
+    - Maximum Salary = $306
+    - Minimun Salary=$202
+    - Average Salary=$254
+
+2. Principal Machine Learning Scientist
+    - Maximun Salary=$289
+    - Minimum Salary=$176
+    - Average Salary=$232.5
+
+3. Senior Data Scientist
+    - Maximum Salary=$275
+   - Minimum Salary=$73
+   - Average Salary=$134.87
+
+4. Data Science Manager
+   - Maximum Salary=$272
+   - Minimum Salary=$95
+   - Average Salary=$158.83
+
+5. Director II, Data Science - GRS Predictive Analyti
+   - Maximum Salary =$239
+   - Minimum Salary=$150
+   - Average Salary=$194.5
+
+
