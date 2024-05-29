@@ -355,18 +355,18 @@ For this analysis,the following are what we need to find out
 # 5. Top 10 companies with highest salary contributions
 |Rank|Sector|Maximum Salary(K)
 |---------------|-------------------------|---------|
-|1|Liberty Mutual Insurance 3.3|$306
-|2|Sage Intacct 4.7|$289
-|3|Gallup 4.2| $275
-|4|Grand Rounds 4.2| $272
-|5|The Climate Corporation 3.2|$238
-|6|Nektar Therapeutics 3.5|$231
-|7|DTCC 3.3|$228
-|8|Samsung Research America 3.7|$228
-|9|Tapjoy 3.9|$224
-|10|BioMarin Pharmaceutical 3.8|$223
+|1|Liberty Mutual Insurance |$306
+|2|Sage Intacct |$289
+|3|Gallup | $275
+|4|Grand Rounds | $272
+|5|The Climate Corporation |$238
+|6|Nektar Therapeutics |$231
+|7|DTCC |$228
+|8|Samsung Research America |$228
+|9|Tapjoy |$224
+|10|BioMarin Pharmaceutical |$223
 # Notes
-For this analysis, we'll prioritize analysing with metrics that are important in generating the expected ROI for the project, which are the career job title,sectors,companies,type of ownership wuth the best salaries
+For this analysis, we'll prioritize analysing with metrics that are important in generating the expected ROI for the project, which are the career job title,sectors,companies,type of ownership with the best salaries
  - Maximum Salary
  - Minimum Salary
  - Average Salary
@@ -737,6 +737,7 @@ ROI we expect when we take this action:
    - Improved industry standards attract better talent and foster a culture of excellence and innovation.
 3. Better Informed Policy Decisions:
    - Data-driven decisions lead to policies that enhance worker satisfaction and industry competitiveness.
+# Conclusion
 # Action plan
 - Actions need to be taken is as follows:
     # Employers
