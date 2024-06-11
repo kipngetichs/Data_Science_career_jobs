@@ -181,10 +181,10 @@ Here are the data quality tests conducted:
  SQL QUERY
 
 
-SELECT *COUNT* (*)AS NUMBER_OF_ROWS
+    SELECT *COUNT* (*)AS NUMBER_OF_ROWS
 
 
-FROM DATA_SCIENCE_CAREER_JOBS
+    FROM DATA_SCIENCE_CAREER_JOBS
  
  
  ![ROW QUALITY CHECK](https://github.com/kipngetichs/Data_Science_career_jobs/assets/169267198/617f7218-0043-422f-9186-3742f3fec27d)
@@ -193,11 +193,11 @@ FROM DATA_SCIENCE_CAREER_JOBS
 
 
 
-SELECT COUNT(*)AS COLUMN_COUNT_CHECK
+    SELECT COUNT(*)AS COLUMN_COUNT_CHECK
 
-FROM INFORMATION_SCHEMA.COLUMNS
+    FROM INFORMATION_SCHEMA.COLUMNS
 
-WHERE TABLE_NAME='DATA_SCIENCE_CAREER_JOBS'
+    WHERE TABLE_NAME='DATA_SCIENCE_CAREER_JOBS'
 
 
 
@@ -210,11 +210,11 @@ SQL query
 
 
 
-SELECT COLUMN_NAME,DATA_TYPE
+    SELECT COLUMN_NAME,DATA_TYPE
 
-FROM INFORMATION_SCHEMA.COLUMNS
+    FROM INFORMATION_SCHEMA.COLUMNS
 
-WHERE TABLE_NAME='DATA_SCIENCE_CAREER_JOBS'
+    WHERE TABLE_NAME='DATA_SCIENCE_CAREER_JOBS'
 
 
 Output
@@ -226,13 +226,13 @@ Output
 SQL query
 
 
-SELECT Job_Title,COUNT(*)Null_Count
+    SELECT Job_Title,COUNT(*)Null_Count
 
-FROM DATA_SCIENCE_CAREER_JOBS
+    FROM DATA_SCIENCE_CAREER_JOBS
 
-WHERE    Job_Title IS NULL
+    WHERE    Job_Title IS NULL
 
-GROUP BY   Job_Title
+    GROUP BY   Job_Title
 
 
 Output
@@ -252,13 +252,13 @@ SQL query
 
 
  
-SELECT avg_salary,COUNT(*)Zero_Value
+    SELECT avg_salary,COUNT(*)Zero_Value
 
-FROM DATA_SCIENCE_CAREER_JOBS
+    FROM DATA_SCIENCE_CAREER_JOBS
 
-WHERE    avg_salary =0
+    WHERE    avg_salary =0
 
-GROUP BY   avg_salary
+    GROUP BY   avg_salary
 
 
 Output
@@ -394,19 +394,19 @@ The Best Career Sector=Salary Expectation
    # SQL query for this :
   
    
-   select top 3 Sector,
+     select top 3 Sector,
 
-max(Maximum_Salary)Maximum_Salary,
+    max(Maximum_Salary)Maximum_Salary,
 
-round(avg(Average_Salary),2)Average_Salary,
+    round(avg(Average_Salary),2)Average_Salary,
 
-min(Minimum_Salary)Minimum_Salary
+    min(Minimum_Salary)Minimum_Salary
 
-from Data_Science_Jobss
+    from Data_Science_Jobss
 
-group by Sector
+    group by Sector
 
-order by Maximum_Salary desc
+    order by Maximum_Salary desc
 
 
 OUTPUT
@@ -450,19 +450,19 @@ Best career job=Salary Expectation
 # SQL query for this :
 
 
-select top 5 Job_Title,
+    select top 5 Job_Title,
 
-max(Maximum_Salary)Maximum_Salary,
+    max(Maximum_Salary)Maximum_Salary,
 
-round(avg(Average_Salary),2)Average_Salary,
+    round(avg(Average_Salary),2)Average_Salary,
 
-min(Minimum_Salary)Minimum_Salary
+    min(Minimum_Salary)Minimum_Salary
 
-from Data_Science_Jobss
+    from Data_Science_Jobss
 
-group by Job_Title
+    group by Job_Title
 
-order by Maximum_Salary desc
+    order by Maximum_Salary desc
 
 
 
@@ -508,21 +508,21 @@ Career Industry=Salary expectation & Rating
    - Average Rating=3.96
 # SQL query for this :
 
-select top 5 Industry,
+    select top 5 Industry,
 
-round(avg(Rating),2)Average_Rating,
+    round(avg(Rating),2)Average_Rating,
 
-max(Maximum_Salary)Maximum_Salary,
+    max(Maximum_Salary)Maximum_Salary,
 
-round(avg(Average_Salary),2)Average_Salary,
+    round(avg(Average_Salary),2)Average_Salary,
 
-min(Minimum_Salary)Minimum_Salary
+    min(Minimum_Salary)Minimum_Salary
 
-from Data_Science_Jobss
+    from Data_Science_Jobss
 
-group by Industry
+    group by Industry
 
-order by Maximum_Salary desc
+    order by Maximum_Salary desc
 
 
 OUTPUT
@@ -561,21 +561,21 @@ Best Company=Salary Expectation & Average Rating
    - Average Salary=$194
    - Average Rating=3.2
 # SQL query for this :
-select top 5 Company_Name,
+    select top 5 Company_Name,
 
-round(avg(Rating),2)Average_Rating,
+    round(avg(Rating),2)Average_Rating,
 
-max(Maximum_Salary)Maximum_Salary,
+    max(Maximum_Salary)Maximum_Salary,
 
-round(avg(Average_Salary),2)Average_Salary,
+    round(avg(Average_Salary),2)Average_Salary,
 
-min(Minimum_Salary)Minimum_Salary
+    min(Minimum_Salary)Minimum_Salary
 
-from Data_Science_Jobss
+    from Data_Science_Jobss
 
-group by Company_Name
+    group by Company_Name
 
-order by Maximum_Salary desc
+    order by Maximum_Salary desc
 
 OUTPUT
 
@@ -612,21 +612,21 @@ Best Ownership=Salary Expectations And Average Rating
    - Average Salary(K)=$67.93
    - Average Rating=3.66
 # SQL query for this :
-select top 5 Type_Of_Ownership,
+    select top 5 Type_Of_Ownership,
 
-round(avg(Rating),2)Average_Rating,
+    round(avg(Rating),2)Average_Rating,
 
-max(Maximum_Salary)Maximum_Salary,
+    max(Maximum_Salary)Maximum_Salary,
 
-round(avg(Average_Salary),2)Average_Salary,
+    round(avg(Average_Salary),2)Average_Salary,
 
-min(Minimum_Salary)Minimum_Salary
+    min(Minimum_Salary)Minimum_Salary
 
-from Data_Science_Jobss
+    from Data_Science_Jobss
 
-group by Type_Of_Ownership
+    group by Type_Of_Ownership
 
-order by Maximum_Salary desc
+    order by Maximum_Salary desc
 
 
 OUPUT
